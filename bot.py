@@ -1,4 +1,7 @@
 # coding: utf-8
+"""
+    Telegram API wrapper doing all the Telegram stuff
+"""
 
 import configparser
 import logging

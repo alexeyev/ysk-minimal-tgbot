@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
+"""
+    All YandexSpeechKit-related stuff is here
+"""
 
 import json
 import urllib.request
 
 
 def speech_to_text(filename=None, bytes=None, topic='general', lang='ru-RU', key=None):
+
+    # choosing the source of bytes for sending to the STT system
     if filename is not None:
         with open(filename, "rb") as f:
             data = f.read()

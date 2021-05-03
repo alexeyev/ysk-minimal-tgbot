@@ -1,5 +1,7 @@
 # ysk-minimal-tgbot
-Based on earlier experience and Telegram / YSK docs
+Based on earlier experience and Telegram / YSK docs.
+
+**NOTA BENE. Suitable for processing 30-seconds messages only.**
 
 ## Preparing secret keys
 Create a file `config.ini` with the following contents:
@@ -18,7 +20,15 @@ Ask @BotFather for a new bot and all the corresponding keys and stuff. Then writ
 as a `[teleram].key` thing.
 
 ### Yandex
-Get an API key for a Service at YandexCloud. You will be provided with your id and a key; this is the last time
+Get an API key for a Service at YandexCloud. 
+
+1. Go to https://console.cloud.yandex.ru/
+2. "Перейти в текущий каталог" (by that time you should have created some YCloud account).
+3. "Сервисные аккаунты" on the left panel.
+4. "Создать сервисный аккаунт".
+5. Everything else is obvious.
+
+You will be provided with your id and a key; this is the last time
 you see your key, do not forget to copy and save it somewhere. Including `config.ini`.
 
 ## And we're good to go
