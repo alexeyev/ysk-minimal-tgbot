@@ -29,7 +29,7 @@ Get an API key for a Service at YandexCloud.
 5. Everything else is obvious.
 
 You will be provided with your id and a key; this is the last time
-you see your key, do not forget to copy and save it somewhere. Including `config.ini`.
+you will have seen your key, so do not forget to copy and save it somewhere. Including `config.ini`.
 
 ## And we're good to go
 
