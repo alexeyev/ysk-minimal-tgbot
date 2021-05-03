@@ -1,7 +1,31 @@
 # ysk-minimal-tgbot
+Based on earlier experience and Telegram / YSK docs
 
-Earlier experience of mine and [this guide](https://habr.com/ru/post/311578/) were used.
+## Preparing secret keys
+Create a file `config.ini` with the following contents:
+```editorconfig
+[telegram]
+key=your_telegram_bot_key
 
-Runs on Windows, adapting for Linux should be easy
+[yandex]
+id=your_yandex_cloud_service_api_id
+key=your_yandex_cloud_service_api_key
+```
+I suggest that you do not commit it.
 
-    wget https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z
+### Telegram
+Ask @BotFather for a new bot and all the corresponding keys and stuff. Then write a secret key into `config.ini`
+as a `[teleram].key` thing.
+
+### Yandex
+Get an API key for a Service at YandexCloud. You will be provided with your id and a key; this is the last time
+you see your key, do not forget to copy and save it somewhere. Including `config.ini`.
+
+## And we're good to go
+
+```
+python bot.py
+```
+
+## License
+This is Beerware, so worry not.
