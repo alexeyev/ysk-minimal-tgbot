@@ -1,5 +1,5 @@
 # ysk-minimal-tgbot
-Based on earlier experience and Telegram / YSK docs.
+Based on earlier experience and Telegram / YandexSpeechKit docs.
 
 **NOTA BENE. Suitable for processing 30-seconds messages only.**
 
